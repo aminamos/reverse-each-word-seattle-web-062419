@@ -6,5 +6,5 @@ def reverse_each_word(arg)
   newarr.join(" ")
   
   arg.split(" ").collect do |x|
-    
+    x.reverse!
 end
