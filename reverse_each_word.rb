@@ -6,4 +6,8 @@ def reverse_each_word(arg)
   # newarr.join(" ")
   
   # arg.split(" ").collect {|i| i.reverse i.join(" ")}
+  arg.split(" ").collect do |i| 
+    i.reverse 
+    i.join(" ")
+  end
 end
