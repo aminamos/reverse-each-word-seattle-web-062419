@@ -1,9 +1,9 @@
 def reverse_each_word(arg)
-  #newarr = []
- # arg.split(" ").each do |x|
+  # newarr = []
+  # arg.split(" ").each do |x|
   #  newarr << x.reverse!
   #end
-  #newarr.join(" ")
+  # newarr.join(" ")
   
   arg.split(" ").collect do |i|
     i.reverse!
