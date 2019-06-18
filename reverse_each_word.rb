@@ -1,3 +1,3 @@
 def reverse_each_word(arg)
-  arg.reverse!
+  arg.r
 end
