@@ -1,5 +1,6 @@
 def reverse_each_word(arg)
+  newarr = []
   arg.split(" ").each do |x|
-    x.reverse!
+    newarr << x.reverse!
   end
 end
