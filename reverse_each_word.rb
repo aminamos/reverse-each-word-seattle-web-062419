@@ -8,6 +8,6 @@ def reverse_each_word(arg)
   # arg.split(" ").collect {|i| i.reverse i.join(" ")}
   arg.split(" ").collect do |i| 
     i.reverse 
-    i.join(" ")
+    i.join
   end
 end
