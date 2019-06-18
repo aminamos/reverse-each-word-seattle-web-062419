@@ -3,5 +3,5 @@ def reverse_each_word(arg)
   arg.split(" ").each do |x|
     newarr << x.reverse!
   end
-  newarr.to_s
+  newarr.join(" ")
 end
